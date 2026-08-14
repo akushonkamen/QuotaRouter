@@ -1,0 +1,29 @@
+{
+  "proxyPort": 8787,
+  "dashboardPort": 8788,
+  "firstByteTimeoutMs": 15000,
+  "idleTimeoutMs": 60000,
+  "healthCheckIntervalMs": 20000,
+  "errorCooldownMs": 30000,
+  "preemptOnRecovery": true,
+  "businessHours": {
+    "enabled": true,
+    "days": [1, 2, 3, 4, 5],
+    "startHour": 9,
+    "endHour": 21
+  },
+  "backends": [
+    {
+      "name": "example-backend-1",
+      "baseUrl": "https://example.com/api/anthropic",
+      "token": "replace-with-real-token",
+      "priority": 1
+    },
+    {
+      "name": "example-backend-2",
+      "baseUrl": "https://example2.com/api/anthropic",
+      "token": "replace-with-real-token",
+      "priority": 2
+    }
+  ]
+}

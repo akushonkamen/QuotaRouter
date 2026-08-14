@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+config.json
+logs/
+test/server.js
+test/state.json
+test/repro.js

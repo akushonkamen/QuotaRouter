@@ -17,6 +17,7 @@ QuotaRouter 做的事情很简单：**把这些CodingPlan的api都交给它，�
 
 **Claude Code 前面的一层自动挡。**
 
+![alt text](image.png)
 平时不需要管它。
 
 主线路能用，就一直走主线路；

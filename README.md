@@ -19,6 +19,7 @@ It uses your preferred line first; when quota, rate limits, or service errors hi
 
 **An automatic transmission in front of Claude Code.**
 
+![alt text](image.png)
 Normally you don't touch it.
 
 If the main line works, it stays on the main line;

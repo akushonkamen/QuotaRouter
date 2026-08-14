@@ -3,8 +3,7 @@
   <p align="center">
     Priority-ordered failover proxy for Claude Code / Anthropic-compatible APIs.
     <br />
-    多后端自动切换 — 限流时按用户设的优先级走、零依赖单文件。
-    <br /><br />
+    <a href="./README.zh-CN.md">中文文档</a> ·
     <a href="#install">Install</a> ·
     <a href="#how-it-works">How it works</a> ·
     <a href="#why">Why</a> ·
@@ -22,12 +21,11 @@
 
 ---
 
-> **EN** — A local proxy that sits between Claude Code and your API providers. Point Claude Code at `127.0.0.1:8787` once; QuotaRouter picks the highest-priority healthy backend, fails over on errors / rate limits, and switches back the instant a higher-priority backend recovers — confirmed by a real request, not a guess. One file, zero npm dependencies, live editable dashboard.
-
-> **中文** — 跑在本地的代理,夹在 Claude Code 和你的 API 供应商之间。Claude Code 只需指向 `127.0.0.1:8787`,QuotaRouter 会按你设的优先级挑可用后端,出错/限流自动切换,高优先级恢复后立即切回(且必须真实流量确认,不是猜)。单文件、零 npm 依赖、Dashboard 不重启改配置。
+A local proxy that sits between Claude Code and your API providers. Point Claude Code at `127.0.0.1:8787` once; QuotaRouter picks the highest-priority healthy backend, fails over on errors / rate limits, and switches back the instant a higher-priority backend recovers — confirmed by a real request, not a guess. One file, zero npm dependencies, live editable dashboard.
 
 <!-- ![QuotaRouter dashboard](docs/dashboard.png) -->
-<!-- ASCII 示意图占位 — 等图就位替换 -->
+<!-- ASCII diagram placeholder — replace with real diagram when ready -->
+
 
 ```
                 ┌─────────────────────────── QuotaRouter (127.0.0.1:8787) ───────────────────────────┐
